@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mata mosquito</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body onresize="ajustaTamanhoPalcoJogo()">
+
+	<div class="painel">
+		<div class="vidas">
+			<img id="v1" src="imagens/coracao_cheio.png">
+			<img id="v2" src="imagens/coracao_cheio.png">
+			<img id="v3" src="imagens/coracao_cheio.png">
+		</div>
+
+		<div class="cronometro">Tempo restante: <span id="cronometro"></span></div>
+	</div>
+	<script src ="jogo.js">
+
+	</script>
+	<script>
+		document.getElementById('cronometro').innerHTML = tempo
+	</script>
+</body>
+</html>
